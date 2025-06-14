@@ -1,0 +1,28 @@
+comandos git 
+
+*********** push ************
+
+//comando para iniciar o git
+git init 
+
+//comando para usuário ao git 
+git config --global user.email "anderson@gmail.com"
+git config --global user.user "anderson.tec19"
+
+//comando para fazer o commit
+git commit -m "alteracao"
+
+//comando para conectar ao projeto
+git remote add origin <https://github.com/anderson1904ribeiro/ProjetoWebSenai.git>
+
+//comando para fazer o push
+git push -u origin main
+
+
+*********** pull ************
+//comando para iniciar o git
+git init 
+
+//comando para fazer o pull
+git pull
+
